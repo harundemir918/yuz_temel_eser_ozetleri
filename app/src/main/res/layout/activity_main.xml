@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/turkLinear"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/mainbuttonbg"
+        android:orientation="horizontal"
+        android:onClick="turkishClassicsList"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/dunyaLinear"
+        android:layout_marginTop="25dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/turkish_classics"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/colorWhite"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/dunyaLinear"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/mainbuttonbg"
+        android:orientation="horizontal"
+        android:onClick="worldClassicsList"
+        app:layout_constraintTop_toTopOf="@id/turkLinear"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/turkLinear">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/world_classics"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/colorWhite"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

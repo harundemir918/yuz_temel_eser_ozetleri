@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Yüz Temel Eser Özetleri</string>
+    <string name="book_name">Kitabın Adı</string>
+    <string name="book_author">Kitabın Yazarı</string>
+    <string name="turkish_classics">Türk Klasikleri</string>
+    <string name="world_classics">Dünya Klasikleri</string>
+    <string name="app_developer">Geliştirici: Harun Demir\nVersiyon: v1.1\n2020</string>
+    <string name="list_loading">Liste Yükleniyor...</string>
+    <string name="list_wait">Liste yüklenirken lütfen bekleyin...</string>
+</resources>

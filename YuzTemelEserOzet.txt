@@ -1,0 +1,21 @@
+Yüz Temel Eser Özetleri
+
+Özellikler
+
+Tamamlananlar:
+
+* Ana menüde book listesi (Resim, isim, yazar)
+* Arama
+* Paket ismi ve uygulamanın görünen ismi değiştirildi
+* Alert Dialog (Uyarı mesajı gösteren ekran) eklendi
+
+Düzenlenecekler:
+
+* Hikaye özetleri
+* Splash Screen
+* MySQL bağlantısı
+* Veritabanı
+
+* JSON oluşturmak için REST API
+* JSON kullanmak için Retrofit 
+
